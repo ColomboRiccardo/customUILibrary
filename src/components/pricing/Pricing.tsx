@@ -15,7 +15,7 @@ export const Pricing = () => {
                 <ToggleSwitch switched={switched}/>
                 <p className={"text-xl"}>Yearly</p>
             </div>
-            <div className={"w-full flex lg:flex-row flex-col gap-4 lg:gap-0 items-center text-black"}>
+            <div className={"w-full flex lg:flex-row flex-col gap-4 lg:gap-0 items-center justify-center text-black"}>
                 <div
                     className={"lg:w-90 w-full h-100 bg-white lg:rounded-r-none rounded-xl flex flex-col gap-3 items-center justify-center p-10"}>
                     <p className={"text-2xl font-bold"}>Basic</p>
